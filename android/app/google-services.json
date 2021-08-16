@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742927711624",
+    "project_id": "talk-69661",
+    "storage_bucket": "talk-69661.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742927711624:android:a88a28d36fd6ee8b988e3d",
+        "android_client_info": {
+          "package_name": "com.social.talk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742927711624-qrcfv7o53hb4o8dpfl1557n91gblj50t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjLkETFnorCBkxO2E2Iyi716-UVGfcBN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742927711624-qrcfv7o53hb4o8dpfl1557n91gblj50t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
