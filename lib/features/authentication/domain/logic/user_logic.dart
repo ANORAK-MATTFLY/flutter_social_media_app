@@ -30,10 +30,4 @@ class UserLogic extends UserInterface {
       "bio": bio,
     });
   }
-
-  getCurrentUser(String userID) async {
-    final remoteUserData = await FirebaseInfo.useCollection.doc(userID).get();
-    final currentUserData = UserModel.fromDocument(remoteUserData);
-    return currentUserData;
-  }
 }

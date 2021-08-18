@@ -1,5 +1,3 @@
-import 'package:talk/features/authentication/infrastructur/model/user_model.dart';
-
 abstract class UserInterface {
   Future<void> deleteUser();
 
@@ -10,6 +8,4 @@ abstract class UserInterface {
   Future<void> updateUserName(String userName);
 
   Future<void> updateUserBio(String bio);
-
-  Future<UserModel> getCurrentUser(String userID);
 }
