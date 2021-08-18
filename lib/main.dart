@@ -1,18 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:talk/features/authentication/presentation/pages/login_screen.dart';
+import 'package:talk/features/authentication/presentation/pages/auth_router.dart';
+import 'package:firebase_core/firebase_core.dart' as firebase_core;
 
-void main() {
-  runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await firebase_core.Firebase.initializeApp();
+
+  runApp(
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Talk',
       theme: ThemeData(),
-      home: LoginScreen(),
+      home: AuthRouter(),
     );
   }
 }

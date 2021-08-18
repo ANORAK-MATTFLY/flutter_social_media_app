@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:talk/features/authentication/presentation/pages/signup_screen.dart';
+import 'package:talk/features/authentication/presentation/widgets/buttons/google_button.dart';
 import 'package:talk/features/authentication/presentation/widgets/icons/facebook_icon.dart';
-import 'package:talk/features/authentication/presentation/widgets/icons/google_icon.dart';
 import 'package:talk/features/authentication/presentation/widgets/social_button.dart';
 
 class LoginForm extends StatefulWidget {
@@ -90,9 +90,7 @@ class _LoginFormState extends State<LoginForm> {
             child: SocialButton(
                 text: "Continue with facebook", socialIcon: facebookIcon),
           ),
-          GestureDetector(
-              child: SocialButton(
-                  text: "Continue with Google", socialIcon: googleIcon)),
+          GoogleButton(),
           Container(
             margin: EdgeInsets.symmetric(horizontal: 20.0),
             height: 50.0,
