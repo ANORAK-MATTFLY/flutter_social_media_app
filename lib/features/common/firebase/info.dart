@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class FirebaseInfo {
-  static CollectionReference useCollection =
+  static CollectionReference usersCollection =
       FirebaseFirestore.instance.collection("users");
 
   static String currentUserID =

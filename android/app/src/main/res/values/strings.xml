@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">talk</string>
+  <string name="facebook_app_id">4304877319600996</string>
+  <string name="fb_login_protocol_scheme">ff3385a4223184f087f1e1c1d9d4ef60</string>
+</resources>
